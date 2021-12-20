@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name">XO</string>
+    <string name="game_player_pc">播放器/ PC</string>
+    <string name="current_deleted">" 当前游戏已删除"</string>
+    <string name="continue_game_player_pc">" 播放器/ PC"</string>
+    <string name="game_1_1">" 播放1/1"</string>
+    <string name="continue_game_1_1">繼續遊戲1/1</string>
+    <string name="shareSub">嘿！讓我們玩井字遊戲嗎？</string>
+    <string name="game_online">在線玩</string>
+    <string name="your_first_move">" 你的第一步&#160;&#160;"</string>
+    <string name="waiting_for_my_opponents_move">" 期待對手的行動&#160;&#160;"</string>
+    <string name="your_move">" 輪到你了&#160;&#160;"</string>
+    <string name="your_victory">您的勝利！</string>
+    <string name="lets_go">" 多玩"</string>
+    <string name="opponent_won">对手获胜 :-(</string>
+    <string name="not_win">" 没赢！"</string>
+    <string name="draw_game">" 重新开始"</string>
+    <string name="android_move">android&#160;&#160;</string>
+    <string name="one_step_you">" 你的第一步&#160;&#160;"</string>
+    <string name="one_step_android">" 安卓的第一步&#160;&#160;"</string>
+    <string name="winner">" 韩元&#160;&#160;"</string>
+    <string name="first_step">第一步&#160;&#160;</string>
+    <string name="step">" 步&#160;&#160;"</string>
+    <string name="android_winner">" 胜利安卓 :-("</string>
+    <string name="reset_game_online">" 重置游戏在线计数器"</string>
+    <string name="reset_game_player_pc">" 重置玩家/电脑计数器"</string>
+    <string name="reset_game_1_1">" 重置游戏计数器1/1"</string>
+    <string name="lock">取消屏蔽其他11个主题并禁用广告</string>
+    <string name="unlock">可以访问所有主题和禁用的广告</string>
+    <string name="stat_game_player_pc">游戏机/电脑</string>
+    <string name="stat_game_1_1">游戏 1 / 1</string>
+    <string name="online">在線的</string>
+    <string name="player_pc">播放器/個人電腦</string>
+    <string name="game11">1 / 1</string>
+    <string name="waiting">" 等待對手連接..."</string>
+
+
+</resources>

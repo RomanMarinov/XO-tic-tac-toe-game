@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XO</string>
+    <string name="game_player_pc">PLAYING PLAYER / PC</string>
+    <string name="current_deleted">CURRENT GAME REMOVED</string>
+    <string name="continue_game_player_pc">PLAYING PLAYER / PC</string>
+    <string name="game_1_1">PLAY 1/1</string>
+    <string name="continue_game_1_1">CONTINUE GAME 1/1</string>
+    <string name="shareSub">Hey! Let\'s play tic-tac-toe with you</string>
+    <string name="game_online">PLAYING GAME ONLINE</string>
+    <string name="your_first_move">your first move&#160;&#160;</string>
+    <string name="waiting_for_my_opponents_move">expecting the opponent\'s move&#160;&#160;</string>
+    <string name="your_move">your step&#160;&#160;</string>
+    <string name="your_victory">YOUR VICTORY!</string>
+    <string name="lets_go">LET\'S PLAY STILL!</string>
+    <string name="opponent_won">Opponent won :-(</string>
+    <string name="not_win">did not win!</string>
+    <string name="draw_game">nobody won</string>
+    <string name="android_move">android move&#160;&#160;</string>
+    <string name="one_step_you">your first move&#160;&#160;</string>
+    <string name="one_step_android">first move android&#160;&#160;</string>
+    <string name="winner">won&#160;&#160;</string>
+    <string name="first_step">first move&#160;&#160;</string>
+    <string name="step">move&#160;&#160;</string>
+    <string name="android_winner">victory android :-(</string>
+    <string name="reset_game_online">reset game online counter</string>
+    <string name="reset_game_player_pc">reset player / pc counter</string>
+    <string name="reset_game_1_1">reset game counter 1/1</string>
+    <string name="lock">Unblock 11 additional themes and disable ads</string>
+    <string name="unlock">You got access to all topics and disabled ads</string>
+    <string name="stat_game_player_pc">GAME PLAYER / PC</string>
+    <string name="stat_game_1_1">GAME 1 / 1</string>
+    <string name="online">ONLINE</string>
+    <string name="player_pc">PLAYER / PC</string>
+    <string name="game11">1 / 1</string>
+    <string name="waiting">waiting for the opponent to connect</string>
+    <string name="switch_2">" receive notification about spare players to play online"</string>
+
+</resources>

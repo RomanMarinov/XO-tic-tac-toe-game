@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XO</string>
+    <string name="game_player_pc">" SPIELER / PC"</string>
+    <string name="current_deleted">AKTUELLES SPIEL ENTFERNT</string>
+    <string name="continue_game_player_pc">WEITER ZUM SPIELER / PC</string>
+    <string name="game_1_1">SPIEL 1 / 1</string>
+    <string name="continue_game_1_1">SPIELE WEITER 1 / 1</string>
+    <string name="shareSub">Hallo! Lass uns mit dir Tic-Tac-Toe spielen</string>
+    <string name="game_online">SIE SPIELEN SPIEL ONLINE</string>
+    <string name="your_first_move">dein erster zug&#160;&#160;</string>
+    <string name="waiting_for_my_opponents_move">den Zug des Gegners erwarten&#160;&#160;</string>
+    <string name="your_move">Du bist dran&#160;&#160;</string>
+    <string name="your_victory">IHR SIEG!</string>
+    <string name="lets_go">versuchen Sie es nochmal</string>
+    <string name="opponent_won">Gegner hat gewonnen :-(</string>
+    <string name="not_win">hat nicht gewonnen!</string>
+    <string name="draw_game">Versuch noch einmal</string>
+    <string name="android_move">schritt android&#160;&#160;</string>
+    <string name="one_step_you">dein erster Zug&#160;&#160;</string>
+    <string name="one_step_android">android ersten schritt&#160;&#160;</string>
+    <string name="winner">gewonnen&#160;&#160;</string>
+    <string name="first_step">erster schritt&#160;&#160;</string>
+    <string name="step">schritt&#160;&#160;</string>
+    <string name="android_winner">sieg android :-(</string>
+    <string name="reset_game_online">Spiel Online-Zähler zurücksetzen</string>
+    <string name="reset_game_player_pc">Spieler / PC-Zähler zurücksetzen</string>
+    <string name="reset_game_1_1">Сбросить счетчик игр 1 / 1</string>
+    <string name="lock">Entsperren Sie 11 zusätzliche Themen und deaktivieren Sie Anzeigen</string>
+    <string name="unlock">Sie haben Zugriff auf alle Themen und deaktivierten Anzeigen</string>
+    <string name="stat_game_player_pc">SPIELSPIELER / PC</string>
+    <string name="stat_game_1_1">SPIEL 1 / 1</string>
+    <string name="online">ONLINE</string>
+    <string name="player_pc">SPIELER / PC</string>
+    <string name="game11">1 / 1</string>
+    <string name="waiting">warten auf die Verbindung des Gegners</string>
+
+</resources>

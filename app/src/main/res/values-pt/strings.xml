@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XO</string>
+    <string name="game_player_pc">JOGADOR / PC</string>
+    <string name="current_deleted">JOGO ATUAL REMOVIDO</string>
+    <string name="continue_game_player_pc">JOGADOR / PC</string>
+    <string name="game_1_1">jogando 1 / 1</string>
+    <string name="continue_game_1_1">CONTINUAR O JOGO 1/1</string>
+    <string name="shareSub">Ei! Vamos jogar jogo da velha com você</string>
+    <string name="game_online">JOGANDO O JOGO ON-LINE</string>
+    <string name="your_first_move">seu primeiro movimento&#160;&#160;</string>
+    <string name="waiting_for_my_opponents_move">esperando o movimento do oponente&#160;&#160;</string>
+    <string name="your_move">твоя очередь&#160;&#160;</string>
+    <string name="your_victory">SUA VITÓRIA!</string>
+    <string name="lets_go">VAMOS JOGAR AINDA!</string>
+    <string name="opponent_won">O oponente venceu :-(</string>
+    <string name="not_win">não ganhou!</string>
+    <string name="draw_game">tente novamente</string>
+    <string name="android_move">movimento android&#160;&#160;</string>
+    <string name="one_step_you">seu primeiro movimento&#160;&#160;</string>
+    <string name="one_step_android">primeiro movimento android&#160;&#160;</string>
+    <string name="winner">Ganhou&#160;&#160;</string>
+    <string name="first_step">vai primeiro&#160;&#160;</string>
+    <string name="step">mover&#160;&#160;</string>
+    <string name="android_winner">vitória android :-(</string>
+    <string name="reset_game_online">redefinir contador de jogo online</string>
+    <string name="reset_game_player_pc">redefinir contador de jogador / pc</string>
+    <string name="reset_game_1_1">zerar contador de jogo 1/1</string>
+    <string name="lock">Desbloqueie 11 temas adicionais e desative os anúncios</string>
+    <string name="unlock">Você tem acesso a todos os tópicos e anúncios desativados</string>
+    <string name="stat_game_player_pc">JOGADOR DE JOGO / PC</string>
+    <string name="stat_game_1_1">JOGO 1 / 1</string>
+    <string name="online">ONLINE</string>
+    <string name="player_pc">PLAYER / PC</string>
+    <string name="game11">1 / 1</string>
+    <string name="waiting">esperando o oponente se conectar</string>
+
+</resources>

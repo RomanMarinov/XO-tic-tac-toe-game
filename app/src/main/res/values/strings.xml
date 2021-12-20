@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">XO</string>
+    <string name="game_player_pc">ИГРАЕШЬ С АНДРОИД</string>
+    <string name="current_deleted">ТЕКУЩАЯ УДАЛЕНА</string>
+    <string name="continue_game_player_pc">ПРОДОЛЖИМ ИГРУ С ПК</string>
+    <string name="game_1_1">ИГРАЕШЬ 1 / 1</string>
+    <string name="continue_game_1_1">ПРОДОЛЖИМ ИГРУ 1 / 1</string>
+    <string name="shareSub">Привет! Давай с тобой поиграем в крестики - нолики</string>
+    <string name="game_online">ИГРАЕШЬ ОНЛАЙН</string>
+    <string name="your_first_move">твой первый ход&#160;&#160;</string>
+    <string name="waiting_for_my_opponents_move">ожидаем ход соперника&#160;&#160;</string>
+    <string name="your_move">твой ход&#160;&#160;</string>
+    <string name="your_victory">ТВОЯ ПОБЕДА!</string>
+    <string name="lets_go">ДАВАЙ ЕЩЕ!</string>
+    <string name="opponent_won">ПОБЕДИЛ СОПЕРНИК :-(</string>
+    <string name="not_win">ПРОИГРАЛ!</string>
+    <string name="android_move">ходит android&#160;&#160;</string>
+    <string name="one_step_you">твой первый ход&#160;&#160;</string>
+    <string name="one_step_android">первый ходит android&#160;&#160;</string>
+    <string name="winner">победил&#160;&#160;</string>
+    <string name="first_step">первым ходит&#160;&#160;</string>
+    <string name="step">ходит&#160;&#160;</string>
+    <string name="android_winner">победа андроид :-(</string>
+
+    <string name="reset_game_player_pc">сбросить счетчик game player / pc</string>
+    <string name="reset_game_1_1">сбросить счетчик game 1 / 1</string>
+
+    <string name="stat_game_player_pc">ИГРА С АНДРОИД</string>
+    <string name="stat_game_1_1">ИГРА 1 / 1</string>
+
+    <string name="online">ОНЛАЙН</string>
+    <string name="player_pc">ИГРОК / ПК</string>
+    <string name="game11">1 / 1</string>
+
+    <string name="switch_alert">получать уведомления о свободных игроках для игры онлайн</string>
+    <string name="switch_sound">звук в игре</string>
+
+    <string name="themes">themes</string>
+    <string name="statistica_setting">statistica setting</string>
+    <string name="share">share</string>
+
+    <string name="waiting">Ожидаем подключения соперника</string>
+    <string name="close_app">Связь потеряна или соперник закрыл приложение.  Во что будешь играть?</string>
+    <string name="sopernik_select_game">Соперник выбрал одиночную игру.  Во что будешь играть?</string>
+    <string name="est_sopernik">появился соперник для игры онлайн</string>
+    <string name="draw_game">НИЧЬЯ</string>
+</resources>
