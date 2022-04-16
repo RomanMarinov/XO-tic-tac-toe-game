@@ -62,10 +62,6 @@ class clWS{ // класс для раоты с вебсокетом
             e.printStackTrace();
         }
 
-
-
-
-
            // создадим экз подключения по сокету
         webSocket = client.newWebSocket(request, new WebSocketListener() {
             @Override

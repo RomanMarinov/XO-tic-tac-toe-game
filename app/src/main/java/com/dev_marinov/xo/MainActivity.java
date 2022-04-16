@@ -42,8 +42,6 @@ import java.util.TimerTask;
 
 import okhttp3.internal.Util;
 
-
-
 public class MainActivity extends AppCompatActivity{
 
     LinearLayout ll_frag_main, ll_frag_theme, ll_frag_statistica;
@@ -84,7 +82,7 @@ public class MainActivity extends AppCompatActivity{
           final Window window = getWindow();
           Drawable drawable = getResources().getDrawable(R.drawable.gradient_background);
           window.setStatusBarColor(getResources().getColor(android.R.color.transparent));
-           window.setBackgroundDrawable(drawable);
+          window.setBackgroundDrawable(drawable);
           window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         MobileAds.initialize(this, new OnInitializationCompleteListener() {
@@ -93,26 +91,26 @@ public class MainActivity extends AppCompatActivity{
             }
         });
 
-
-
-
 //Для получения ID
 
-
-
-            String android_id = Settings.Secure.getString(this.getContentResolver(), Settings.Secure.ANDROID_ID);
-            String deviceId = md5(android_id).toUpperCase();
-
+        String android_id = Settings.Secure.getString(this.getContentResolver(), Settings.Secure.ANDROID_ID);
+        String deviceId = md5(android_id).toUpperCase();
 
         new RequestConfiguration.Builder().setTestDeviceIds(Arrays.asList("7E9F0207DCD1C0A2F21EC64357E62286"));
-        AdView mAdView = findViewById(R.id.adView);                 // 5DECD8E1E548505D79A7798D8E5ACEA8
-        AdRequest adRequest = new AdRequest.Builder().addTestDevice("7E9F0207DCD1C0A2F21EC64357E62286").build();
-        mAdView.loadAd(adRequest);
-        boolean isTestDevice = adRequest.isTestDevice(this);
 
-        Log.e("ID!!", "is Admob Test Device ? "+deviceId+" "+isTestDevice); //to confirm it worked
-      //  mAdView.addTestDevice("5DECD8E1E548505D79A7798D8E5ACEA8").build();
-        mAdView.loadAd(adRequest);
+
+        // закоментил после блокировки гуглом и в xml mainactivity
+        //AdView mAdView = findViewById(R.id.adView);                 // 5DECD8E1E548505D79A7798D8E5ACEA8
+
+//        //AdRequest adRequest = new AdRequest().
+//
+//        AdRequest adRequest = new AdRequest.Builder().addTestDevice("7E9F0207DCD1C0A2F21EC64357E62286").build();
+//        mAdView.loadAd(adRequest);
+//        boolean isTestDevice = adRequest.isTestDevice(this);
+//
+//        Log.e("ID!!", "is Admob Test Device ? "+deviceId+" "+isTestDevice); //to confirm it worked
+//      //  mAdView.addTestDevice("5DECD8E1E548505D79A7798D8E5ACEA8").build();
+//        mAdView.loadAd(adRequest);
 
         FragmentManager fragmentManager = getSupportFragmentManager(); // получение доступа ко всем фрагментам
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction(); // начать транзакцию
@@ -120,14 +118,8 @@ public class MainActivity extends AppCompatActivity{
         fragmentTransaction.replace(R.id.ll_frag_main, fragmentMain); // заменяет в лин лэйауте фрагмент
         fragmentTransaction.commitNow(); // синхронное сохранение
 
-
-
 ///  addTestDevice -
         // f6c15b03354344d0bd4df096b63728ea - уникальный номер рекламы приложения. после установки google ads можно узнать этот номер
-
-
-
-
 
 
       //  clws.ConnectSocket(this); // в момент пуска приложения я подклбчаюсь к серверу
@@ -179,26 +171,21 @@ public class MainActivity extends AppCompatActivity{
             } catch (JSONException exception) {
                 exception.printStackTrace();
             }
-
            }});
 
         context = this; // ЧТО ЭТО ОЗНАЧАЕТ?
       //  clws.ConnectSocket(this);
-
                 tim =  new Timer();
                 tim.schedule(new TimerTask() { // ЧТО ЭТО ОЗНАЧАЕТ? Таймер запуска
                 @Override
                 public void run() {
                     //Looper.prepare();
-
                         if (flag_connect == 0) {
                             clws.ConnectSocket(context);
                            // cancel();
                         }
                     }
                 },1000,1000);
-
-
         ll_frag_main = findViewById(R.id.ll_frag_main);
         ll_frag_theme = findViewById(R.id.ll_frag_theme);
         ll_frag_statistica = findViewById(R.id.ll_frag_statistica);

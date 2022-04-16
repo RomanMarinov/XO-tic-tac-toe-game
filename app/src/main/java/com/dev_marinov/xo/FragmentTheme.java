@@ -26,7 +26,6 @@ public class FragmentTheme extends Fragment{
     ImageView img_theme_2_unlock, img_theme_3_unlock, img_theme_4_unlock, img_theme_5_unlock, img_theme_6_unlock, img_theme_7_unlock, img_theme_8_unlock,
             img_theme_9_unlock, img_theme_10_unlock, img_theme_11_unlock, img_theme_12_unlock;
 
-
     ConstraintLayout cl_interior_theme_unlock;
     Button bt_unlocked_theme;
     TextView tv_message_unblock_theme;
@@ -62,8 +61,6 @@ public class FragmentTheme extends Fragment{
         ll_conteiner_bt = frag.findViewById(R.id.ll_conteiner_bt);
 
         cl_main = frag.findViewById(R.id.cl_main);
-
-
 
 // нажатие кнопок во фрагменте FragmentTheme где происходит выбор другой темы для игры
         img_theme_1.setOnClickListener(new View.OnClickListener() {

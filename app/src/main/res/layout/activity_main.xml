@@ -15,7 +15,7 @@
     android:layout_width="match_parent"
     android:id="@+id/cl_ss3"
     app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintBottom_toTopOf="@id/adView"
+    app:layout_constraintBottom_toBottomOf="parent"
     android:layout_height="0dp">
 
    <LinearLayout
@@ -53,17 +53,18 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
-    <com.google.android.gms.ads.AdView
-        ads:layout_constraintBottom_toBottomOf="parent"
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/adView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-6952444901755859/4723655906">
-    </com.google.android.gms.ads.AdView>
+
+<!--    <com.google.android.gms.ads.AdView-->
+<!--        ads:layout_constraintBottom_toBottomOf="parent"-->
+<!--        xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/adView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        ads:adSize="BANNER"-->
+<!--        ads:adUnitId="ca-app-pub-6952444901755859/4723655906">-->
+<!--    </com.google.android.gms.ads.AdView>-->
 
 
 
